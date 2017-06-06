@@ -1,4 +1,5 @@
 #include <stdio.h>
+#functionality 1
 
 #include "liba/liba.h"
 #include "libb/libb.h"
