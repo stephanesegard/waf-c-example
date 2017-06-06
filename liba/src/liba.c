@@ -14,5 +14,11 @@ void liba_greetings() {
   fprintf(stdout, "%s\n", "Greetings from liba");
 }
 
+void libb_how_are_you() {
+  fprintf(stdout, "%s\n", "Greetings from liba");
+}
+
+
+
 
 /* EOF */
