@@ -19,5 +19,12 @@ void libb_goodbye() {
   fprintf(stdout, "%s\n", "Goodbye from libb");
 }
 
+void libb_happy() {
+  fprintf(stdout, "%s\n", "about to say goodbye from liba...");
+  liba_goodbye();
+  fprintf(stdout, "%s\n", "about to say goodbye from liba... [done]");
+
+  fprintf(stdout, "%s\n", "Goodbye from libb");
+}
 
 /* EOF */

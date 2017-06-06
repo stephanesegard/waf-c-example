@@ -10,5 +10,9 @@ void liba_byebye() {
   fprintf(stdout, "%s\n", "Bye Bye from liba");
 }
 
+void liba_greetings() {
+  fprintf(stdout, "%s\n", "Greetings from liba");
+}
+
 
 /* EOF */
